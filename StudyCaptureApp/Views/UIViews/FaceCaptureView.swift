@@ -23,6 +23,17 @@ class FaceCaptureView: UIView, UITextFieldDelegate {
         
         subjectIdTextField.delegate = self
         loadingSpinnerView.hidesWhenStopped = true
+        
+        formatUI()
+    }
+    
+    func formatUI() {
+        Borders.createThinBorders(buttonName: retakeButton)
+        Borders.createThinBorders(buttonName: saveButton)
+        Borders.createThinBorders(textFieldName: subjectIdTextField)
+        
+        FormatButton.makeRound(button: retakeButton, cornerRadius: 5.0)
+        FormatButton.makeRound(button: saveButton, cornerRadius: 5.0)
     }
     
     /// Closes keyboard when 'Return' is pressed

@@ -70,7 +70,7 @@
                                 </constraints>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vsD-Ae-noP" firstAttribute="centerY" secondItem="EsM-Al-CLJ" secondAttribute="centerY" id="3az-1t-mYm"/>
                             <constraint firstItem="OKj-tR-bau" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="77X-DJ-KDH"/>

@@ -22,6 +22,8 @@
 		57FF59EC2535771A00A47DAB /* FilterValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59EB2535771A00A47DAB /* FilterValues.swift */; };
 		57FF59EE253577BF00A47DAB /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59ED253577BF00A47DAB /* ImageProcessor.swift */; };
 		57FF59F025360A9200A47DAB /* CommonAlertFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59EF25360A9200A47DAB /* CommonAlertFunctions.swift */; };
+		57FF59F225361BD800A47DAB /* Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59F125361BD800A47DAB /* Borders.swift */; };
+		57FF59F425361D4200A47DAB /* UIFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59F325361D4200A47DAB /* UIFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		57FF59EB2535771A00A47DAB /* FilterValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterValues.swift; sourceTree = "<group>"; };
 		57FF59ED253577BF00A47DAB /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		57FF59EF25360A9200A47DAB /* CommonAlertFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAlertFunctions.swift; sourceTree = "<group>"; };
+		57FF59F125361BD800A47DAB /* Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borders.swift; sourceTree = "<group>"; };
+		57FF59F325361D4200A47DAB /* UIFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFormatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,6 @@
 				57FF59DD2533B29D00A47DAB /* Views */,
 				57FF59DC2533B28C00A47DAB /* Models */,
 				57FF59E42533C56400A47DAB /* Tools */,
-				57FF59DF2533B2D100A47DAB /* Other */,
 				57FF59A92533B24400A47DAB /* AppDelegate.swift */,
 				57FF59AB2533B24400A47DAB /* SceneDelegate.swift */,
 				57FF59B52533B24500A47DAB /* Assets.xcassets */,
@@ -170,13 +173,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		57FF59DF2533B2D100A47DAB /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
 		57FF59E02533B2FC00A47DAB /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +197,8 @@
 				57FF59E72533CCD500A47DAB /* ImagePickerControllerWrapper.swift */,
 				57FF59ED253577BF00A47DAB /* ImageProcessor.swift */,
 				57FF59EF25360A9200A47DAB /* CommonAlertFunctions.swift */,
+				57FF59F325361D4200A47DAB /* UIFormatting.swift */,
+				57FF59F125361BD800A47DAB /* Borders.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -338,6 +336,7 @@
 			files = (
 				57FF59AE2533B24400A47DAB /* FaceCaptureVC.swift in Sources */,
 				57FF59EE253577BF00A47DAB /* ImageProcessor.swift in Sources */,
+				57FF59F425361D4200A47DAB /* UIFormatting.swift in Sources */,
 				57FF59E82533CCD500A47DAB /* ImagePickerControllerWrapper.swift in Sources */,
 				57FF59E62533C57600A47DAB /* Extensions.swift in Sources */,
 				57FF59EC2535771A00A47DAB /* FilterValues.swift in Sources */,
@@ -346,6 +345,7 @@
 				57FF59B42533B24400A47DAB /* StudyCaptureApp.xcdatamodeld in Sources */,
 				57FF59AC2533B24400A47DAB /* SceneDelegate.swift in Sources */,
 				57FF59F025360A9200A47DAB /* CommonAlertFunctions.swift in Sources */,
+				57FF59F225361BD800A47DAB /* Borders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -114,6 +114,8 @@ class FaceCaptureVC: UIViewController, UINavigationControllerDelegate {
         faceCaptureView.processedImage.isHidden = false
         faceCaptureView.processedImage.image = img
         
+        Borders.createThinBorders(imageName: faceCaptureView.processedImage)
+        
         faceCaptureView.stopAnimatingSpinner()
     }
 }
