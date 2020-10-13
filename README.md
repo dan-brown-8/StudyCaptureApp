@@ -3,6 +3,9 @@ Photo capture and processing app
 
 **README:**
 
+**WARNING**
+This app only works on physical devices. It will not function properly on an iPhone simulator since the simulator is unable to take photos.
+
 **How it Works**
 - Type in an alphanumeric subject ID.
 - Press the camera icon in the top right corner and take a selfie.
