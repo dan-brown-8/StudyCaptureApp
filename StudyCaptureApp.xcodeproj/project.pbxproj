@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		57FF59AA2533B24400A47DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59A92533B24400A47DAB /* AppDelegate.swift */; };
 		57FF59AC2533B24400A47DAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59AB2533B24400A47DAB /* SceneDelegate.swift */; };
-		57FF59AE2533B24400A47DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59AD2533B24400A47DAB /* ViewController.swift */; };
+		57FF59AE2533B24400A47DAB /* FaceCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59AD2533B24400A47DAB /* FaceCaptureVC.swift */; };
 		57FF59B12533B24400A47DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FF59AF2533B24400A47DAB /* Main.storyboard */; };
 		57FF59B42533B24400A47DAB /* StudyCaptureApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59B22533B24400A47DAB /* StudyCaptureApp.xcdatamodeld */; };
 		57FF59B62533B24500A47DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FF59B52533B24500A47DAB /* Assets.xcassets */; };
 		57FF59B92533B24500A47DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FF59B72533B24500A47DAB /* LaunchScreen.storyboard */; };
 		57FF59C42533B24600A47DAB /* StudyCaptureAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59C32533B24600A47DAB /* StudyCaptureAppTests.swift */; };
 		57FF59CF2533B24600A47DAB /* StudyCaptureAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59CE2533B24600A47DAB /* StudyCaptureAppUITests.swift */; };
+		57FF59E32533BABF00A47DAB /* FaceCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59E22533BABF00A47DAB /* FaceCaptureView.swift */; };
+		57FF59E62533C57600A47DAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59E52533C57600A47DAB /* Extensions.swift */; };
+		57FF59E82533CCD500A47DAB /* ImagePickerControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59E72533CCD500A47DAB /* ImagePickerControllerWrapper.swift */; };
+		57FF59EC2535771A00A47DAB /* FilterValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59EB2535771A00A47DAB /* FilterValues.swift */; };
+		57FF59EE253577BF00A47DAB /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59ED253577BF00A47DAB /* ImageProcessor.swift */; };
+		57FF59F025360A9200A47DAB /* CommonAlertFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF59EF25360A9200A47DAB /* CommonAlertFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		57FF59A62533B24400A47DAB /* StudyCaptureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyCaptureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FF59A92533B24400A47DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FF59AB2533B24400A47DAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57FF59AD2533B24400A47DAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57FF59AD2533B24400A47DAB /* FaceCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureVC.swift; sourceTree = "<group>"; };
 		57FF59B02533B24400A47DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57FF59B32533B24400A47DAB /* StudyCaptureApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyCaptureApp.xcdatamodel; sourceTree = "<group>"; };
 		57FF59B52533B24500A47DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		57FF59CA2533B24600A47DAB /* StudyCaptureAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyCaptureAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FF59CE2533B24600A47DAB /* StudyCaptureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCaptureAppUITests.swift; sourceTree = "<group>"; };
 		57FF59D02533B24600A47DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FF59E22533BABF00A47DAB /* FaceCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureView.swift; sourceTree = "<group>"; };
+		57FF59E52533C57600A47DAB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		57FF59E72533CCD500A47DAB /* ImagePickerControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerControllerWrapper.swift; sourceTree = "<group>"; };
+		57FF59EB2535771A00A47DAB /* FilterValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterValues.swift; sourceTree = "<group>"; };
+		57FF59ED253577BF00A47DAB /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		57FF59EF25360A9200A47DAB /* CommonAlertFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAlertFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,16 @@
 		57FF59A82533B24400A47DAB /* StudyCaptureApp */ = {
 			isa = PBXGroup;
 			children = (
+				57FF59DE2533B2A500A47DAB /* Controllers */,
+				57FF59DD2533B29D00A47DAB /* Views */,
+				57FF59DC2533B28C00A47DAB /* Models */,
+				57FF59E42533C56400A47DAB /* Tools */,
+				57FF59DF2533B2D100A47DAB /* Other */,
 				57FF59A92533B24400A47DAB /* AppDelegate.swift */,
 				57FF59AB2533B24400A47DAB /* SceneDelegate.swift */,
-				57FF59AD2533B24400A47DAB /* ViewController.swift */,
-				57FF59AF2533B24400A47DAB /* Main.storyboard */,
 				57FF59B52533B24500A47DAB /* Assets.xcassets */,
-				57FF59B72533B24500A47DAB /* LaunchScreen.storyboard */,
-				57FF59BA2533B24500A47DAB /* Info.plist */,
 				57FF59B22533B24400A47DAB /* StudyCaptureApp.xcdatamodeld */,
+				57FF59BA2533B24500A47DAB /* Info.plist */,
 			);
 			path = StudyCaptureApp;
 			sourceTree = "<group>";
@@ -129,6 +143,66 @@
 				57FF59D02533B24600A47DAB /* Info.plist */,
 			);
 			path = StudyCaptureAppUITests;
+			sourceTree = "<group>";
+		};
+		57FF59DC2533B28C00A47DAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57FF59EB2535771A00A47DAB /* FilterValues.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57FF59DD2533B29D00A47DAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57FF59E12533B30700A47DAB /* UIViews */,
+				57FF59E02533B2FC00A47DAB /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57FF59DE2533B2A500A47DAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57FF59AD2533B24400A47DAB /* FaceCaptureVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57FF59DF2533B2D100A47DAB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		57FF59E02533B2FC00A47DAB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				57FF59B72533B24500A47DAB /* LaunchScreen.storyboard */,
+				57FF59AF2533B24400A47DAB /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		57FF59E12533B30700A47DAB /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				57FF59E22533BABF00A47DAB /* FaceCaptureView.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		57FF59E42533C56400A47DAB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				57FF59E52533C57600A47DAB /* Extensions.swift */,
+				57FF59E72533CCD500A47DAB /* ImagePickerControllerWrapper.swift */,
+				57FF59ED253577BF00A47DAB /* ImageProcessor.swift */,
+				57FF59EF25360A9200A47DAB /* CommonAlertFunctions.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57FF59AE2533B24400A47DAB /* ViewController.swift in Sources */,
+				57FF59AE2533B24400A47DAB /* FaceCaptureVC.swift in Sources */,
+				57FF59EE253577BF00A47DAB /* ImageProcessor.swift in Sources */,
+				57FF59E82533CCD500A47DAB /* ImagePickerControllerWrapper.swift in Sources */,
+				57FF59E62533C57600A47DAB /* Extensions.swift in Sources */,
+				57FF59EC2535771A00A47DAB /* FilterValues.swift in Sources */,
 				57FF59AA2533B24400A47DAB /* AppDelegate.swift in Sources */,
+				57FF59E32533BABF00A47DAB /* FaceCaptureView.swift in Sources */,
 				57FF59B42533B24400A47DAB /* StudyCaptureApp.xcdatamodeld in Sources */,
 				57FF59AC2533B24400A47DAB /* SceneDelegate.swift in Sources */,
+				57FF59F025360A9200A47DAB /* CommonAlertFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
